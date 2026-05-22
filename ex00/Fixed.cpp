@@ -10,6 +10,7 @@ Fixed::Fixed(const Fixed &cpy)
 	std::cout << "Copy constructor called\n";
 	*this = cpy;
 }
+
 Fixed &Fixed::operator=(const Fixed &src)
 {
 	std::cout << "Fixed Assignation operator called\n";
